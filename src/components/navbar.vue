@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <h1 class="logo">TaskFlow</h1>
+    <h1 class="logo">Todo</h1>
     <div class="nav-links">
       <router-link to="/" exact-active-class="active">Home</router-link>
       <router-link to="/add-task" exact-active-class="active">Add Tasks</router-link>

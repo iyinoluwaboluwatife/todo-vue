@@ -23,7 +23,7 @@ defineProps<{ todo: Todo }>();
 .completed { color: green; font-weight: bold; }
 .pending { color: red; font-weight: bold; }
 .view-btn {
-  background: purple;
+  background: #4b0082;
   color: white;
   padding: 0.5rem 1rem;
   text-decoration: none;

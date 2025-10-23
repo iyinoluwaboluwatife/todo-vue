@@ -2,8 +2,11 @@
   <div class="form">
     <h2>Add New Task</h2>
     <form @submit.prevent="addTask">
-      <label>Task Name</label>
+    <div>
+            <label>Task Name</label>
       <input v-model="title" required placeholder="e.g. Make breakfast" />
+    </div>
+      
 
       <label>Completed</label>
       <select v-model="completed">
@@ -32,6 +35,7 @@ function addTask() {
 
 <style scoped>
 .form {
+   
   background: white;
   max-width: 600px;
   margin: 3rem auto;
@@ -40,7 +44,7 @@ function addTask() {
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 button {
-  background: purple;
+  background: #4b0082;
   color: white;
   padding: 0.6rem 1rem;
   border: none;

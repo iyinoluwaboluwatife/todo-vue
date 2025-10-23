@@ -54,6 +54,7 @@ const filteredTodos = computed(() => {
   background: #f3e8ff;
   min-height: 100vh;
   padding: 2rem;
+  text-align:center;
 }
 .cards {
   display: grid;
@@ -62,11 +63,13 @@ const filteredTodos = computed(() => {
 }
 .filters button {
   margin-right: 0.5rem;
-  background: purple;
+  background: #4b0082;
   color: white;
   border: none;
   padding: 0.4rem 0.8rem;
   border-radius: 5px;
+  margin-bottom:20px;
+  
 }
 input {
   margin: 1rem 0;
