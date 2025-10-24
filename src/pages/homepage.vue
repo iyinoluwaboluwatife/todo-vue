@@ -24,8 +24,8 @@
 
 <script lang="ts" setup>
 import { ref, computed, onMounted } from 'vue';
-import TodoCard from '../components/TodoCard.vue';
-import HeroSection from '../components/HeroSection.vue';
+import TodoCard from '../components/todocard.vue';
+import HeroSection from '../components/herosection.vue';
 import type { Todo } from '../types';
 
 const todos = ref<Todo[]>([]);
